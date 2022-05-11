@@ -1,6 +1,6 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "Test Scenario",
+  "description": "Testing scenario building",
   "difficulty": "Beginner",
   "time": "3 minutes",
   "details": {
@@ -30,6 +30,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "kubernetes-cluster:1.18"
   }
 }
