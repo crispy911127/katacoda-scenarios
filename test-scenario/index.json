@@ -27,6 +27,7 @@
     }
   },
   "environment": {
+    "showide": true,
     "uilayout": "terminal"
   },
   "backend": {
