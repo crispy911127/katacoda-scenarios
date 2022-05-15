@@ -28,6 +28,12 @@
     }
   },
   "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Jenkins",
+        "port": 8080}
+    ],
     "showvisualise": true,
     "scopePort": 4040,
     "showide": true,
