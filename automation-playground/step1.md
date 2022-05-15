@@ -1,8 +1,8 @@
-# Heading for Step 1
+# Welcome!
 
-This is some text.
+This is like a blank canvas for you, I cant wait to see what you create!
 
-Here's a single line of runnable code:
+If you wish to use kubernetes for this artwork, please run the below:
 
-`printf 'Hello, world!\n\n'`{{execute}}
+`launch.sh`{{execute}}
 

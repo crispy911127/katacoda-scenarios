@@ -1,1 +1,1 @@
-launch.sh
+mkdir /root/jenkins_home
