@@ -37,10 +37,6 @@ resource "docker_container" "jenkins" {
         external = "8080"
     }
 
-    volumes {
-        container_path = "/var/jenkins_home"
-        host_path = "/root/jenkins/jenkins_home"
-    }
 }
 EOF
 
