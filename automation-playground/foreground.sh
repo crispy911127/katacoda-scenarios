@@ -39,7 +39,7 @@ resource "docker_container" "jenkins" {
 
     volumes {
         container_path = "/var/jenkins_home"
-        host_path = "/home/crispy/Projects/terraform/jenkins/jenkins_home"
+        host_path = "/root/jenkins/jenkins_home"
     }
 }
 EOF
