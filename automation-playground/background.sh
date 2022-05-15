@@ -2,11 +2,15 @@
 
 docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true
 
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-apt-get update && sudo apt-get install terraform
+curl -L -O https://releases.hashicorp.com/terraform/1.1.9/terraform_1.1.9_linux_amd64.zip
+
+unzip terraform_1.1.9_linux_amd64.zip
 
 mkdir -p /root/jenkins/jenkins_home
+
+mv terraform /usr/bin
+
+rm terraform*
 
 cat > /root/jenkins/main.tf << EOF
 terraform {
