@@ -43,3 +43,5 @@ resource "docker_container" "jenkins" {
     }
 }
 EOF
+
+clear
