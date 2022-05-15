@@ -17,3 +17,7 @@ Wanna show off your CI/CD and automation skills? Should we start with Jenkins? H
 `cd jenkins/; terraform init; terraform validate; terraform plan; sleep 2; terraform apply`{{execute}}
 
 Remember to confirm!
+
+Click the `Jenkins` tab to access the web page for Jenkins, you will be asked for an inital admin password you can get it with this command:
+
+`docker exec cat /var/jenkins_home/secrets/initalAdminPassword`{{execute}}
