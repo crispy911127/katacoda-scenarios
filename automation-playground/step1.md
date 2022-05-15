@@ -1,5 +1,7 @@
 # Welcome!
 
+#### NB. Please click the `IDE` and `Visualise Host` tabs before continuing to make sure they load up correctly, if you experience any weird behaviour please reload this tab or reenter the scenario.
+
 This is like a blank canvas for you, I cant wait to see what you create!
 
 If you wish to use kubernetes for this artwork, please run the below:
