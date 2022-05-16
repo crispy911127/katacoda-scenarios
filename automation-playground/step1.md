@@ -14,10 +14,10 @@ If you wish to use kubernetes for this artwork, please run the below:
 
 Wanna show off your CI/CD and automation skills? Should we start with Jenkins? Heres a freebie, run the below to terraform a container running jenkins:
 
-`cd jenkins/; terraform init; terraform validate; terraform plan; sleep 2; terraform apply`{{execute}}
+`cd jenkins/; terraform init; terraform validate; sleep 2; terraform apply; cd`{{execute}}
 
 Remember to confirm!
 
 Click the `Jenkins` tab to access the web page for Jenkins, you will be asked for an inital admin password you can get it with this command:
 
-`docker exec cat /var/jenkins_home/secrets/initalAdminPassword`{{execute}}
+`docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword`{{execute}}
