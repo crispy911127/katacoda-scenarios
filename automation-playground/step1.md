@@ -6,9 +6,7 @@ The `IDE` is a built in version of Visual Studio Code, try it out!
 
 The `Visualise Host` will show us what is deployed on the host, a good way to show what your scripts have deployed.
 
-This is like a blank canvas for you, I cant wait to see what you create!
-
-If you wish to use kubernetes for this artwork, please run the below:
+If you wish to use kubernetes for this, please run the below:
 
 `launch.sh`{{execute}}
 
